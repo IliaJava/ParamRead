@@ -1,0 +1,22 @@
+Особенности работы программы:
+Если есть 2 параметра –s и –f то выводится краткая статистика(s).
+Статистика по float и int общая, поэтому если в результате одно или нет чисел для анализа, то выводится сообщение, что данных для полной статистики недостаточно, со строками так же.
+Если введен не допустимый параметр то сообщение, что попробуйте с другими параметрами.
+Если есть –о и потом сразу –f, то –f считается как путь и статистика не выводится.
+В папке Example файл для запуска ParamRead.jar и результаты работы. 
+Использовалась Java 17.
+Сборка Apache Maven 3.9.8.
+Сторонние библиотеки:
+<dependencies>
+    <dependency>
+        <groupId>com.beust</groupId>
+        <artifactId>jcommander</artifactId>
+        <version>1.82</version>
+    </dependency>
+     <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+     <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>3.16.0</version>
+     </dependency>
+ </dependencies>.
